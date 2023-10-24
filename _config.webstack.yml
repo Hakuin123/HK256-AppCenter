@@ -1,0 +1,277 @@
+favicon: /favicon.ico
+banner: /images/webstack_banner_cn.png
+
+logo:
+  expanded: /images/logo@2x.png
+  collapsed: /images/logo-collapsed@2x.png
+  dark: /images/logo_dark@2x.png
+
+flag:
+  - name: 简体中文
+    default: true
+    icon: flag-cn
+    index: /index.html
+
+search: true
+
+userDefinedSearchData:
+  custom: true
+  thisSearch: https://www.baidu.com/s?wd=
+  thisSearchIcon: url(https://www.baidu.com/favicon.ico)
+  hotStatus: true
+  data:
+    - name: 百度
+      img: url(https://www.baidu.com/favicon.ico)
+      url: https://www.baidu.com/s?wd=
+
+githubCorner: '<a href="https://github.com/HCLonely/hexo-theme-webstack" class="github-corner" aria-label="View source on GitHub"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#151513; color:#fff; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>'
+
+since: 2023
+
+menu:
+  - name: A~Z排序
+    icon: far fa-star
+    submenu: 
+      - name: A
+        icon: far fa-star
+        config: A
+      - name: B
+        icon: far fa-star
+        config: B
+      - name: C
+        icon: far fa-star
+        config: C
+      - name: D
+        icon: far fa-star
+        config: D
+      - name: E
+        icon: far fa-star
+        config: E
+      - name: F
+        icon: far fa-star
+        config: F
+      - name: G
+        icon: far fa-star
+        config: G
+      - name: H
+        icon: far fa-star
+        config: H
+
+  - name: 常用工具
+    icon: far fa-star
+    config: hotTools
+  - name: 其他工具
+    icon: fas fa-tools
+    submenu:
+      - name: 开发工具
+        icon: fas fa-tools
+        config: devTools
+      - name: 我的博客
+        icon: fas fa-blog
+        config: myBlog
+
+expandAll: false # 是否将侧边栏全部展开
+
+
+
+# 参见 https://github.com/HCLonely/hexo-theme-webstack/blob/master/README_CN.md#config
+
+A: 
+  - name: AIDA64
+    url: https://www.aida64.com/downloads/latesta64droid
+    img: https://www.aida64.com/favicon.ico
+    description: 硬件信息检测工具
+# 阿里云盘
+# Apkpure
+# 安装狮
+# 爱玩机工具箱
+# appshare
+# autojs
+# accubattery
+
+B:
+    - name: 哔哩哔哩
+      url: https://app.bilibili.com
+      img: https://www.bilibili.com/favicon.ico
+      description: 哔哩哔哩 (゜-゜)つロ 干杯~-bilibili
+    - name: 哔哩哔哩漫游【模块】
+      url: https://github.com/yujincheng08/BiliRoaming
+      img: https://raw.githubusercontent.com/yujincheng08/BiliRoaming/master/imgs/icon.png
+      description: 解除B站客户端番剧区域限制的Xposed模块，并且提供其他小功能
+    - name: 冰箱
+      url: https://coolapk.com/apk/com.catchingnow.icebox
+      img: http://image.coolapk.com/apk_logo/2019/0809/14/icebox-20219-o_1dhqhkiessvcojn196dth0bq-uid-184454@512x512.png
+      description: 应用冻结工具
+    - name: Blackbox
+      url: https://github.com/FBlackBox/BlackBox
+      img: https://avatars.githubusercontent.com/u/100009830
+      description: 一款虚拟引擎，可以在Android上克隆、运行虚拟应用
+
+# **百度网盘精简版**
+# **百度输入法旧版**
+
+
+C:
+    - name: Cellular-Z（官网）
+      url: http://www.cellularz.fun/
+      img: http://www.cellularz.fun/img/favicon.ico
+      description: 一款电信小区、信号质量及WiFi信息、信道查看软件
+    - name: Cellular-Z Pro（酷安）
+      url: https://www.coolapk.com/apk/make.more.r2d2.cellular_pro
+      img: http://www.cellularz.fun/img/favicon.ico
+      description: 是一款实用的网络优化软件，能提供移动网络信号实时测量功能
+    - name: Clash For Android
+      url: https://github.com/Kr328/ClashForAndroid
+      img: https://raw.githubusercontent.com/Dreamacro/clash/master/docs/logo.png
+      description: 一个 Android 端的 Clash 图形用户界面
+    - name: Chrome
+      url: https://sj.qq.com/appdetail/com.android.chrome
+      img: https://www.google.cn/chrome/static/images/chrome-logo-m100.svg
+      description: Google Chrome 网络浏览器
+
+D:
+    - name: DevCheck（APKPure）
+      url: https://m.apkpure.com/cn/devcheck-device-system-info/flar2.devcheck
+      img: http://pp.myapp.com/ma_icon/0/icon_12191618_1582346385/
+      description: 有关您的硬件和操作系统的测试、工具和完整信息
+    - name: Dhizuku
+      url: https://github.com/iamr0s/Dhizuku
+      img: 
+      description: 分享 DeviceOwner (设备所有者) 权限给其余应用
+
+E:
+    - name: Edge
+      url: https://www.microsoft.com/zh-cn/edge
+      img: https://edgestatic.azureedge.net/welcome/static/favicon.png
+      description: Microsoft Edge 浏览器
+
+F:
+    - name: Fake Location
+      url: http://fakeloc.cc/app
+      img: http://fakeloc.cc/upload/5e9d4bf314134800299a7de9/icon/com.lerist.fakelocation_1.2.0.6_561_a.png
+      description: 虚拟定位软件
+    - name: Fusion App
+      url: https://www.coolapk.com/apk/cn.coldsong.fusionapp
+      img: http://image.coolapk.com/feed/2021/0207/12/1576159_e85fe3f9_3839_5628@512x512.png
+      description: 网页转应用
+#folder sync
+#Firefox
+
+G:
+    - name: Geekbench 5（APKPure）
+      url: https://m.apkpure.com/cn/geekbench-5/com.primatelabs.geekbench5
+      img: https://www.geekbench.com/img/favicons/android/launcher-icon-4x.png
+      description: 了解您的Android设备与Geekbench 5的速度有多快。
+    - name: GitHub Mobile
+      url: https://github.com/mobile
+      img: https://is1-ssl.mzstatic.com/image/thumb/Purple116/v4/ef/e9/9e/efe99e78-7780-bf38-d442-00056432f341/AppIcon-0-1x_U007emarketing-0-7-0-85-220.png/246x0w.png
+      description: 
+# Google Authenticator
+# GO 谷歌安装器
+
+H:
+    - name: HeiFUN
+      url: https://heifun.hk256.top
+      img: https://heifun.hk256.top/HeiFUN.jpg
+      description: 罗小黑妖灵论坛官方应用
+
+
+
+S:
+    - name: Speedtest（APKPure）
+      url: https://m.apkpure.com/cn/speedtest-by-ookla/org.zwanoo.android.speedtest
+      img: https://m.media-amazon.com/images/I/2165FoT1qvL.png
+      description: 
+
+
+
+
+testPage:
+  - name: Child Page
+    url: /child
+    img: /images/logos/myblog.png
+    description: 子页面测试
+
+devTools:
+  - name: Github
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台。
+  - name: Github！！
+    url: https://github.com/
+    img: /images/logos/github.png
+    description: 面向开源及私有软件项目的托管平台！！！！！！！！！
+
+myBlog:
+  - name: HCLonely Blog
+    url: https://blog.hclonely.com/
+    img: /images/logos/myBlog.png
+    description: 一个懒人的博客。
+
+demo:
+    - name: 
+      url: 
+      img: 
+      description: 
+# 这是一个示例
+
+
+
+
+about:
+  url: /about/
+  icon: far fa-heart
+  name: 关于白熊应用汇
+
+aboutPage:
+  website:
+    head: 关于白熊应用汇
+    html: '<blockquote><p><b>白熊应用汇</b>是<a href="https://www.hk256.top">白熊工作室</a>旗下的 Android 玩机应用收集站</p></blockquote>'
+  webmaster:
+    head: 关于白熊
+    name: 白隐Hakuin
+    url: https://www.hk256.top
+    img: /images/logos/myblog.png
+    description: “播种与期待之歌，亦是收获与欢愉之歌。”
+    html: '<br /><blockquote><p><b>白熊应用汇</b>是<a href="https://www.hk256.top">白熊工作室</a>旗下的 Android 玩机应用收集站</p></blockquote>'
+
+busuanzi:
+  enable: true
+  position: sidebar # 'footer','sidebar'
+  pv: 本站总访问量$pv
+  uv: 本站总访客数$uv
+
+custom:
+  head: |- # 以下内容插入到<head></head>标签内，可设置多行，注意每行开头至少四个空格
+    <!-- 直接添加html内容即可 -->
+    <!-- 可设置多行 -->
+  body: |- # 以下内容插入到</body>标签之前，可设置多行，注意每行开头至少四个空格
+    <!-- 直接添加html内容即可 -->
+    <!-- 可设置多行 -->
+
+js:
+  header: /js/header.js
+  footer: /js/footer.js
+  jquery: /js/jquery-1.11.1.min.js
+  bootstrap: /js/bootstrap.min.js
+  TweenMax: /js/TweenMax.min.js
+  resizeable: /js/resizeable.min.js
+  joinable: /js/joinable.js
+  xenonApi: /js/xenon-api.min.js
+  xenonToggles: /js/xenon-toggles.min.js
+  xenonCustom: /js/xenon-custom.min.js
+  lozad: /js/lozad.min.js
+  html5shiv: /js/html5shiv.min.js
+  respond: /js/respond.min.js
+  busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
+
+css:
+  hclonely: /css/hclonely.css
+  fonts: //fonts.loli.net/css?family=Arimo:400,700,400italic
+  linecons: /css/fonts/linecons/css/linecons.min.css
+  fontawesome: /css/fonts/fontawesome/css/all.min.css
+  bootstrap: /css/bootstrap.min.css
+  xenonCore: /css/xenon-core.min.css
+  xenonComponents: /css/xenon-components.min.css
+  xenonSkins: /css/xenon-skins.min.css
+  nav: /css/nav.min.css
